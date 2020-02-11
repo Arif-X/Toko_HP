@@ -1,0 +1,204 @@
+	body {
+		position: relative; 
+	}
+
+	.middle {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	.img-responsive {
+		max-height: auto;
+	}
+
+	.padding-left-10px {
+		padding-left: 10px;
+	}
+
+	h1 {
+		text-decoration: underline;
+	}
+
+	.style-padding {
+		padding-bottom: 40px;
+		padding-top: 20px;
+	}
+
+/* 
+	Navbar
+	*/
+	nav {
+		background-color: #ffffff !important;
+	}
+
+	nav a {
+		font-size: 14px;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 500;
+		color: #004289 !important;
+	}
+
+	nav .navbar-brand {
+		padding-left: 5%;
+	}
+
+	nav .navbar-collapse {
+		padding-right: 5%;
+	}
+
+	.dropdown-menu {
+		display: block;
+		visibility: hidden;
+		opacity: 0;
+		transform: translateY(50px);
+		transition: .5s ease all;
+	}
+
+	.dropdown-menu.show {
+		display: block;
+		visibility: visible;
+		opacity: 1;
+		transform: translateY(0px);
+		transition:.5s ease all;
+	}
+
+/* 
+	============================= Back to Top ==============================
+	*/
+
+	html {
+		scroll-behavior:smooth;
+	}
+
+	.top {
+		width:50px; 
+		height:50px; 
+		position:fixed; 
+		bottom:50px; 
+		right: 50px; 
+		z-index:99; 
+		cursor:pointer; 
+		border-radius:100px; 
+		transition:all .5s; 
+		border-color: #fff;
+		background:#004289 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;
+	}
+
+	.top:hover {
+		background:#004289 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;
+	}
+
+/* 
+	============================= Section Produk ==============================
+	*/
+	#produk {
+		padding-top: 70px;
+		color: #004289;
+		background-color: #fff;
+	}
+
+	#produk .card {
+		height: 650px;
+		margin-top: 10px;
+	}
+
+	#produk .card .card-header {
+		background: #fff;
+		height: 330px;
+	}
+
+	#produk .card .card-header img {
+		max-height: 300px;
+		width: 100%;
+	}
+
+	#produk .card .card-header p {
+		font-size: 18px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-weight: bold;
+	}
+
+	#produk .card .card-body p {
+		font-size: 18px;
+	}
+
+
+	#produk .card .card-body li {
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+/* 
+	============================= Section Tambah Produk ==============================
+	*/
+	#addproduk {
+		background-color: #fff;
+	}
+
+	#addproduk {
+		padding-top: 50px;
+		color: #004289;
+		background-color: #fff;
+	}
+
+	#addproduk .card {
+		margin-top: 10px;
+	}
+
+	#addproduk .card .card-header {
+		background: #004289;
+		color: #fff !important;
+		font-weight: bold;
+	}
+
+	#addproduk .btn {
+		border-color: #004289;
+		color: #004289;
+	}
+
+
+/* 
+	============================= Section Edit Produk ==============================
+	*/
+	#editproduk {
+		background-color: #fff;
+	}
+
+	#editproduk {
+		padding-top: 50px;
+		color: #004289;
+		background-color: #fff;
+	}
+
+	#editproduk .card {
+		margin-top: 10px;
+	}
+
+	#editproduk .card .card-header {
+		background: #004289;
+		color: #fff !important;
+		font-weight: bold;
+	}
+
+	#editproduk .btn {
+		border-color: #004289;
+		color: #004289;
+	}
+
+
+/* 
+	============================= Section Kredit ==============================
+	*/
+	#kredit {
+		background-color: #fff;
+	}
+
+	#kredit .text-center {
+		color: #004289;
+	}
+
+	#kredit .text-center a {
+		color: #004289;
+		font-style: italic;	
+	}

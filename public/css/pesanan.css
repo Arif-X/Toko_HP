@@ -1,0 +1,149 @@
+	body {
+		position: relative; 
+	}
+
+	.middle {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	.img-responsive {
+		max-height: auto;
+	}
+
+	.padding-left-10px {
+		padding-left: 10px;
+	}
+
+	h1 {
+		text-decoration: underline;
+	}
+
+	.style-padding {
+		padding-bottom: 40px;
+		padding-top: 20px;
+	}
+
+/* 
+	Navbar
+	*/
+	nav {
+		background-color: #ffffff !important;	
+
+	}
+
+	nav a {
+		font-size: 14px;
+		font-family: "Montserrat", sans-serif;
+		font-weight: 500;
+		color: #004289 !important;
+	}
+
+	nav .navbar-brand {
+		padding-left: 5%;
+	}
+
+	nav .navbar-collapse {
+		padding-right: 5%;
+	}
+
+	.dropdown-menu {
+		display: block;
+		visibility: hidden;
+		opacity: 0;
+		transform: translateY(50px);
+		transition: .5s ease all;
+	}
+
+	.dropdown-menu.show {
+		display: block;
+		visibility: visible;
+		opacity: 1;
+		transform: translateY(0px);
+		transition:.5s ease all;
+	}
+
+/* 
+	============================= Back to Top ==============================
+	*/
+
+	html {
+		scroll-behavior:smooth;
+	}
+
+	.top {
+		width:50px; 
+		height:50px; 
+		position:fixed; 
+		bottom:50px; 
+		right: 50px; 
+		z-index:99; 
+		cursor:pointer; 
+		border-radius:100px; 
+		transition:all .5s; 
+		border-color: #fff;
+		background:#004289 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;
+	}
+
+	.top:hover {
+		background:#004289 url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat center center;
+	}
+
+/* 
+	============================= Section Pesanan ==============================
+	*/
+	#pesanan {
+		padding-top: 70px;
+		color: #004289;
+		background-color: #fff;
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+
+	#pesanan .card .card-header {
+		color: #fff;
+		background-color: #004289;
+	}	
+
+	#pesanan .card .card-body h4 {
+		font-style: italic;
+	}
+
+	#pesanan .card .card-body .btn {
+		font-style: italic;
+		border-color: #004289;
+	}
+
+	#pesanan table tr th {
+		background-color: #004289;
+		color: #fff;
+	}
+
+	#pesanan table tr td {
+		color: #004289;
+		font-size: 17px;
+		font-weight: bold;
+	}
+
+	#pesanan table tr td img {
+		width: 100px;
+		max-height: auto;
+	}
+
+	#pesanan table tr td {
+		vertical-align: middle;
+	}
+
+	#pesanan table tr td .btn {
+		font-style: italic;
+		border-color: #004289;
+	}
+	
+	#pesanan table tr td li {
+		list-style: none;
+	}
+
+	#pesanan .keterangan {
+		font-size: 16px;
+		font-weight: normal;
+	}
